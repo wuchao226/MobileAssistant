@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ToolBar" parent="AppTheme">
+        <!--箭头-->
+        <item name="drawerArrowStyle">@style/ActionButton.DrawerArrowToggle</item>
+        <item name="android:windowActionBarOverlay">@style/ActionButton.Overflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow</item>
+        <!--ToolBar 字体颜色改为白色-->
+        <item name="titleTextColor">@color/common_white</item>
+        <item name="android:buttonStyle">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+    <!--背景透明-->
+    <style name="AppTheme.Transparent" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ActionButton.Overflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_menu_more_overflow</item>
+    </style>
+
+    <style name="ActionButton.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--TabLayout通用样式-->
+    <style name="TabsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabIndicatorColor">@color/common_blue</item>
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
+        <item name="tabTextColor">@color/common_white_trans50</item>
+        <item name="tabSelectedTextColor">@color/common_white</item>
+    </style>
+
+    <!-- TabLayout文字样式-->
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <!-- 加载弹框样式 -->
+    <style name="LightDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--设置是否浮现在activity之上true|false-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否有遮盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <!-- 加载弹框样式 -->
+    <style name="LightProgressDialog" parent="LightDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

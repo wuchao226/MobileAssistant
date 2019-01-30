@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">手机助手</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_search"/>
+
+    <string name="click_login">点击登录</string>
+    <string name="help_and_feedback">帮助和反馈</string>
+    <string name="about">关于</string>
+    <string name="app_and_game">应用和游戏</string>
+    <string name="movie">影视</string>
+    <string name="music">音乐</string>
+    <string name="book">图书</string>
+    <string name="newsstand">报亭</string>
+    <string name="update">更新</string>
+    <string name="message">消息</string>
+    <string name="settings">设置</string>
+    <string name="recommend">推荐</string>
+    <string name="rank">排行</string>
+    <string name="category">分类</string>
+    <string name="download">下载</string>
+    <string name="network_connect_fail">网络连接失败</string>
+    <string name="retry">重试</string>
+
+    <string name="no_more_data">暂无更多数据</string>
+    <string name="hot_app">热门应用</string>
+    <string name="hot_game">热门游戏</string>
+    <string name="hot_theme">热门主题</string>
+    <string name="game">游戏</string>
+    <string name="search">搜索</string>
+    <string name="login">登录</string>
+    <string name="mobile_phone_number">手机号码</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="register_account">注册账号</string>
+    <string name="user_login">用户登录</string>
+    <string name="please_loading">请稍等…</string>
+    <string name="switch_account">切换帐号</string>
+    <string name="please_again_login">请重新登录</string>
+    <string name="please_login">请登录</string>
+    <string name="please_input_mobile_phone_number">请输入手机号码</string>
+    <string name="please_input_mobile_phone_number_error">手机号码输入错误</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="competitive_product">精品</string>
+    <string name="new_product">新品</string>
+    <string name="application_introduction">应用介绍</string>
+    <string name="same_developers_app">相同开发者的应用</string>
+    <string name="relate_app">相关应用</string>
+    <string name="uninstall">卸载</string>
+    <string name="install">安装</string>
+
+    <string name="error_unkown">未知错误</string>
+    <string name="error_http">网络连接错误</string>
+    <string name="error_system">服务器出错</string>
+    <string name="error_account_freeze">账户被冻结，请联系管理员</string>
+    <string name="error_api_no_permission">调用了无权限的API接口</string>
+    <string name="error_login">用户名或者密码错误</string>
+    <string name="error_http_400">bad request</string>
+    <string name="error_http_404">服务器资源找不到</string>
+    <string name="error_http_500">服务器错误</string>
+    <string name="error_socket_timeout">网络超时</string>
+    <string name="error_socket_unreachable">网络不可用</string>
+    <string name="error_token">登录失效，请重新登录</string>
+
+</resources>

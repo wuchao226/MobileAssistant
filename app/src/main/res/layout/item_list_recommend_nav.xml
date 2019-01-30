@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchWrap"
+    android:background="@color/common_white"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10">
+
+    <TextView
+        android:id="@+id/nav_app"
+        style="@style/WrapWrap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/icon_app"
+        android:drawablePadding="@dimen/dp_5"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/hot_app"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:id="@+id/nav_game"
+        style="@style/WrapWrap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/icon_game"
+        android:drawablePadding="@dimen/dp_5"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/hot_game"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:id="@+id/nav_theme"
+        style="@style/WrapWrap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/icon_top"
+        android:drawablePadding="@dimen/dp_5"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/hot_theme"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/sp_14"/>
+</android.support.v7.widget.LinearLayoutCompat>

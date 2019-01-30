@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_1">
+        <item
+            android:icon="@drawable/ic_apps_white_24dp"
+            android:title="@string/app_and_game"/>
+    </group>
+
+    <group android:id="@+id/group_3">
+        <item
+            android:id="@+id/menu_download"
+            android:icon="@drawable/ic_file_download_white_24dp"
+            android:title="@string/download"/>
+        <item
+            android:id="@+id/menu_update"
+            android:icon="@drawable/ic_update_white_24dp"
+            android:title="@string/update"/>
+        <item
+            android:id="@+id/menu_message"
+            android:icon="@drawable/ic_message_white_24dp"
+            android:title="@string/message"/>
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="@string/settings"/>
+    </group>
+
+    <item android:title="@string/help_and_feedback"/>
+    <item android:title="@string/about"/>
+
+</menu>

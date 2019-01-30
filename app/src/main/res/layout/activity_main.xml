@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        style="@style/MatchWrap"
+        android:background="@color/colorPrimary"
+        android:minHeight="?actionBarSize"
+        android:theme="@style/AppTheme.ToolBar"
+        app:title="@string/app_name"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            style="@style/MatchMatch"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_layout"
+                style="@style/TabsStyle"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                style="@style/MatchMatch"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            style="@style/WrapMatch"
+            android:layout_gravity="start"
+            android:background="@color/common_white"
+            app:headerLayout="@layout/layout_header"
+            app:menu="@menu/menu_left"/>
+    </android.support.v4.widget.DrawerLayout>
+</android.support.v7.widget.LinearLayoutCompat>
